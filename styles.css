@@ -1,0 +1,56 @@
+  @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+  :root {
+    --font: "Outfit", sans-serif;
+    --headerColor: #1F314F;
+    --paragraphColor: #4d4d4d;
+    --bgColor: #d5e1ef;
+    --spacing200: 16px;
+    --spacing300: 24px;
+    --spacing400: 32px;
+    --spacing500: 40px;
+    --spacing600: 48px;
+  }
+
+  .pageWrapper {
+    width: 100%;
+    background: #d5e1ef;
+  }
+
+  .card {
+    background: #fff;
+    border-radius: 20px;
+    width: 90%;
+    max-width: 288px;
+    box-sizing: border-box;
+    padding: var(--spacing200) var(--spacing200) var(--spacing500) var(--spacing200);
+  }
+
+  .imgWrapper {
+    width: 100%;
+  }
+
+  .imgWrapper img {
+    width: 100%;
+  }
+
+  .copyWrapper {
+    padding: 0 var(--spacing200);
+    text-align: center;
+    font-family: var(--font);
+    margin-top: var(--spacing300);
+  }
+
+  .copyWrapper h1 {
+    color: var(--headerColor);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .copyWrapper p {
+    color: var(--paragraphColor);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.4;
+  }
