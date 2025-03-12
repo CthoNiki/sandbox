@@ -8,8 +8,13 @@
     --spacing200: 16px;
     --spacing300: 24px;
     --spacing400: 32px;
-    --spacing500: 40px;
+    --spacing500: 25px;
     --spacing600: 48px;
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
   }
 
   .pageWrapper {
@@ -19,6 +24,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    scrollbar-width: none;
   }
 
   .card {
@@ -53,14 +60,16 @@
 
   .copyWrapper h1 {
     color: var(--headerColor);
-    font-size: 22px;
+    /* font-size: 22px; */
+    font-size: clamp(18px, 1.075rem + 0.25vw, 22px);
     font-weight: 700;
     line-height: 1.2;
   }
 
   .copyWrapper p {
     color: var(--paragraphColor);
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size:clamp(12px, 0.713rem + 0.19vw, 15px);
     font-weight: 400;
     line-height: 1.4;
   }
