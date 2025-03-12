@@ -8,7 +8,7 @@
     --spacing200: 16px;
     --spacing300: 24px;
     --spacing400: 32px;
-    --spacing500: 25px;
+    --spacing500: 40px;
     --spacing600: 48px;
   }
 
@@ -64,6 +64,7 @@
     font-size: clamp(18px, 1.075rem + 0.25vw, 22px);
     font-weight: 700;
     line-height: 1.2;
+    margin-bottom: var(--spacing200);
   }
 
   .copyWrapper p {
